@@ -11,7 +11,5 @@ function createClassDependencyAndUseIt() {
 }
 
 module.exports = {
-  createAwsSdkInstanceAndUseIt,
-  createClassDependencyAndUseIt,
-  useClassDependencyThatWasCreatedAtRequire
+  createClassDependencyAndUseIt
 };

@@ -1,3 +1,4 @@
+console.log('It was RESET! CLASS DEPENDENCY');
 class ClassDependency {
   constructor(arg1, arg2){
     console.log(arg1, arg2);

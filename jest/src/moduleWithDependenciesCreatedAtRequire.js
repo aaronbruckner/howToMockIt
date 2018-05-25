@@ -1,14 +1,15 @@
 const ClassDependency = require('./dependencies/ClassDependency');
 
+let instance = new ClassDependency('arg1', 'arg2');
 /**
- * This function creates a class dependency, invokes a function on it, and returns a value depending on the dependency.
+ * It is very common to test code that uses class instances which were created when the module was required. This
+ * is frequently the most difficult thing to mock in javascript.
  * @return {*}
  */
-function createClassDependencyAndUseIt() {
-  let instance = new ClassDependency('arg1', 'arg2');
+function useClassDependencyCreatedAtRequire() {
   return instance.alwaysReturnOne();
 }
 
 module.exports = {
-  createClassDependencyAndUseIt
+  useClassDependencyCreatedAtRequire
 };
