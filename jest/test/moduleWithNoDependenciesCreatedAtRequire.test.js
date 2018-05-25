@@ -2,7 +2,8 @@
 
 /**
  * This test shows how to mock a class dependency which is created when the test function is invoked and used immediately.
- * Because the class instance isn't created at
+ * Because the class instance isn't created when the module is required, you can define a mock instance of ClassDependency
+ * to be returned before every test.
  */
 
 // Jest requires module or class mocks to be declared in the same block and before the require/import.

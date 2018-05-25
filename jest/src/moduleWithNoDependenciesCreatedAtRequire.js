@@ -1,15 +1,6 @@
 const AWS = require('aws-sdk');
 const ClassDependency = require('./dependencies/ClassDependency');
 
-function createAwsSdkInstanceAndUseIt() {
-
-}
-
-
-function useClassDependencyThatWasCreatedAtRequire() {
-
-}
-
 /**
  * This function creates a class dependency, invokes a function on it, and returns a value depending on the dependency.
  * @return {*}

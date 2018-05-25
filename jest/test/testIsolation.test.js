@@ -4,7 +4,8 @@ const moduleWithNoDependenciesCreatedAtRequire = require('../src/moduleWithNoDep
 const ClassDependency = require('../src/dependencies/ClassDependency');
 
 /**
- * Sanity check to confirm mocks in other test files are not leaking and poisoning other tests
+ * Sanity check to confirm mocks in other test files are not leaking and poisoning other tests. This test file contains
+ * all the different modules and dependencies used as is to confirm they are not mocked from another test.
  */
 describe('Mocks isolation', () => {
   test('module should behave as expected (should not be mocked)', () => {
