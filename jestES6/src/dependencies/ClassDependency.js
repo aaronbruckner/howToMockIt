@@ -1,4 +1,4 @@
-class ClassDependency {
+export default class ClassDependency {
   constructor(arg1, arg2){
     console.log(arg1, arg2);
   }
@@ -7,5 +7,3 @@ class ClassDependency {
     return 1;
   }
 }
-
-module.exports = ClassDependency;
