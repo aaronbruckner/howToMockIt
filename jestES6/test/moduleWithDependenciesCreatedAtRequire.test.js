@@ -10,8 +10,8 @@
  * With this option, you load the modules a single time and continually clear your mock instance between tests.
  */
 const mockClassDependency = {
-    alwaysReturnOne: jest.fn()
-  };
+  alwaysReturnOne: jest.fn()
+};
 jest.mock('../src/dependencies/ClassDependency', function () {
   return jest.fn().mockImplementation(() => mockClassDependency);
 });

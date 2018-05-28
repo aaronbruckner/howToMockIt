@@ -1,7 +1,7 @@
 {
-  "name": "how_to_mock_it_jest",
+  "name": "how_to_mock_it_jest_es6",
   "version": "1.0.0",
-  "description": "Mocking examples using the Jest framework.",
+  "description": "Mocking examples using the Jest framework with ES6 imports.",
   "main": "index.js",
   "scripts": {
     "test": "jest --watch"
